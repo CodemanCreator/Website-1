@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+ <html lang="en-US">
+  <head>
+   <title>Contact</title>
+	
+	<!--Meta Tags-->
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<!--CSS-->
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	
+	<!--Javascript-->
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	
+ </head>
+<body>
+
+<nav class="navbar navbar-inverse">
+ <div class="container-fluid">
+  <div class="navbar-header">
+   <a class="navbar-brand" href="Index.html">WebSiteName</a>
+    </div>
+    <ul class="nav navbar-nav">
+     <li><a href="javascript:void(0)">Home</a></li>
+     <li><a href="about.html">About</a></li>
+     <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+     <li><a href="sign up.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+     <li><a href="log in.html"><span class="glyphicon glyphicon-log-in"></span> Log In</a></li>
+  </ul>
+ </div>
+</nav>
+
+<div class="container">
+ <div class="well">
+  <form action="contact.php" method="post">
+   <div class="form-group">
+    <label for="name">Name:</label>
+    <input type="text" class="form-control" id="name" value"">
+   </div>
+   <div class="form-group">
+    <label for="email">Email:</label>
+    <input type="email" class="form-control" id="email" value"">
+	</div>
+   <div class="form-group">
+    <label for="comment">Comment:</label>
+	 <input type="text" class="form-control" id="comment" value="">
+	</div>
+	 <button type="submit" class="btn btn-default">Submit</button>
+   </div>
+  </div>
+</div>
+
+ </body>
+</html>
